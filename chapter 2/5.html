@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Specificity and Inheritance Example</title>
+    <style>
+      p[lang|="en"] {
+        color: green;
+      }
+      p:nth-of-type(2) {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <p lang="en">English paragraph</p>
+    <p lang="en-US">English (US) paragraph</p>
+    <p lang="fr">French paragraph</p>
+  </body>
+</html>
