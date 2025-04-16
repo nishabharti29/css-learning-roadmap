@@ -1,0 +1,34 @@
+.grid-item {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
+  .grid-item {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+  
+  .grid-item {
+    grid-area: myArea;
+  }
+  
+  .grid-container {
+    grid-template-areas:
+      "header header header"
+      "sidebar main content"
+      "footer footer footer";
+  }
+  
+  .grid-item {
+    grid-area: 2 / 1 / 4 / 3;
+  }
+  
+  .grid-item {
+    justify-self: end;
+  }
+  
+  .grid-item {
+    align-self: start;
+  }

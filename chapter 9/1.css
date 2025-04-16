@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+  }
+  
+  @media (orientation: portrait) {
+    .sidebar {
+      display: none;
+    }
+  }
+  
+  @media (min-resolution: 192dpi) {
+    img {
+      src: "image@2x.png";
+    }
+  }

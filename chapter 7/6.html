@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flex-container {
+        display: flex;
+        background-color: #f0f0f0;
+        width: 500px;
+      }
+      .flex-item {
+        background-color: #ccc;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+      .flex-item-grow-1 {
+        flex-grow: 1;
+      }
+      .flex-item-grow-2 {
+        flex-grow: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-item flex-item-grow-1">1</div>
+      <div class="flex-item flex-item-grow-2">2</div>
+      <div class="flex-item">3</div>
+    </div>
+  </body>
+</html>
