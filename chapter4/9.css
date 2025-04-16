@@ -1,0 +1,14 @@
+.pattern-bg {
+    background-image: url('images/small-pattern.png');
+    background-repeat: repeat;
+  }
+  
+  .single-image-bg {
+    background-image: url('images/large-image.jpg');
+    background-repeat: no-repeat;
+  }
+  
+  .repeat-x-bg {
+    background-image: url('images/horizontal-line.png');
+    background-repeat: repeat-x;
+  }

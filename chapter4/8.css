@@ -1,0 +1,11 @@
+.hero {
+    background-image: url('images/hero-image.jpg');
+    color: white;
+    padding: 50px;
+    text-align: center;
+  }
+  .layered-background {
+    background-image: url('images/pattern.png'), url('images/overlay.png');
+    background-repeat: repeat, no-repeat;
+    background-position: top left, center;
+  }

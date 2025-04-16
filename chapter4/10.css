@@ -1,0 +1,12 @@
+.positioned-bg {
+    background-image: url('images/icon.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 20px;
+  }
+  .complex-position {
+    background-image: url('images/image1.png'), url('images/image2.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 10px 20px, center bottom;
+    height: 300px;
+  }

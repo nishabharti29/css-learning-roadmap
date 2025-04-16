@@ -1,0 +1,7 @@
+.transparent-yellow {
+    background-color: hsla(60, 100%, 50%, 0.3);
+  }
+  
+  .faded-purple-text {
+    color: hsla(270, 50%, 60%, 0.7);
+  }

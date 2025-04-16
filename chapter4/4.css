@@ -1,0 +1,7 @@
+.transparent-red {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+  
+  .slightly-transparent-green {
+    color: rgba(0, 255, 0, 0.8);
+  }
